@@ -99,6 +99,8 @@ nav .nav-head button:hover{
     justify-content: center;
 }
 .btn1{
+    display: flex;
+    gap: 10px;
     background-color: #469165;
     color: white;
     padding: 17px;
