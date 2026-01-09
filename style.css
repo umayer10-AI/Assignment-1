@@ -177,7 +177,7 @@ nav .nav-head button:hover{
     margin-bottom: 120px;
 }
 #mid-container .content .box-container .box{
-    padding: 50px 24px;
+    padding: 50px 24px 10px 24px;
     background-color: #FFFFFF;
     border-radius: 8px;
     cursor: pointer;
@@ -290,6 +290,7 @@ nav .nav-head button:hover{
     cursor: pointer;
     margin-bottom: 16px;
     margin-left: 580px;
+    margin-top: 25px;
 }
 #Last-section .last-content .content button:hover{
     background-color: #950e0e;
