@@ -17,6 +17,10 @@ nav .nav-head ul li{
     list-style: none;
     font-size: 16px;
     color: #000000;
+    cursor: pointer;
+}
+nav .nav-head ul li:hover{
+    color: blue;
 }
 nav .nav-head{
     display: flex;
@@ -73,6 +77,7 @@ nav .nav-head button:hover{
     width: 8px;
     background-color: #469165;
     border-radius: 50%;
+    box-shadow: 0 0 5px #0d6933;
     display: inline-block;
     margin-right: 10px;
 }
@@ -270,13 +275,16 @@ nav .nav-head button:hover{
     color: #627382;
     margin-bottom: 16px;
 }
+#Last-section .last-content .content button img{
+    padding-left: 8px;
+}
 #Last-section .last-content .content button{
     font-size: 16px;
     font-weight: 600;
     color: #FFFFFF;
     display: flex;
     text-align: center;
-    background-color: #30B868;
+    background-color: #469165;
     padding: 17px;
     border-radius: 5px;
     cursor: pointer;
@@ -292,6 +300,7 @@ nav .nav-head button:hover{
     line-height: 20px;
     color: #627382;
 }
+
 #footer-section{
     background-color: #001931;
 }
