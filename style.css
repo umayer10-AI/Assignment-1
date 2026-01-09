@@ -3,6 +3,9 @@
     padding: 0;
     max-width: 1600px;
 }
+.fira-sans-thin{
+  font-family: "Fira Sans", sans-serif;
+}
 body{
     background-color: whitesmoke;
 }
@@ -277,4 +280,38 @@ nav .nav-head button:hover{
     font-weight: 400px;
     line-height: 20px;
     color: #627382;
+}
+#footer-section{
+    background-color: #001931;
+}
+#footer-section .content{
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 80px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+#footer-section .content ul{
+    display: flex;
+    gap: 16px;
+}
+#footer-section .content .b h3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    text-align: center;
+}
+#footer-section .content .b li{
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: 2px;
+}
+#footer-section .content .b{
+    margin-right: 107px;
 }
